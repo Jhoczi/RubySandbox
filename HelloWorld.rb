@@ -36,3 +36,12 @@ puts converted_string.class
 
 # justify a string
 p "Ruby".ljust(10,'<3')
+
+new_string = "hello"
+p new_string.upcase
+p new_string.capitalize
+
+p "a_string".object_id
+p "a_string".object_id
+p :a_symbol.object_id
+p :a_symbol.object_id
